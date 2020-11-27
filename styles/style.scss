@@ -1,5 +1,7 @@
-@import 'variables';
-@import 'stay-productive';
+@import '_variables';
+@import '_stay-productive';
+@import '_section1-articles';
+@import '_footer';
 
 * {
     box-sizing: border-box;
@@ -40,9 +42,7 @@ header {
         text-decoration: none;
         font-weight: normal;
         margin: 1vw;
-
     }
-
 }
 
 .header-section {
@@ -59,8 +59,6 @@ header {
         img {
             width: 95%;
         }
-
-
     }
 
     h1 {
