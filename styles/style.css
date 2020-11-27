@@ -1,16 +1,32 @@
 .stay-productive-section {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: Raleway;
+  color: white;
+  font-size: 14px;
 }
 
 .stay-productive-section img {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  margin: 10em 0 5em 0;
+}
+
+.stay-productive-section p {
+  margin: 1em 0;
+  font-size: 14px;
 }
 
 .articles {
