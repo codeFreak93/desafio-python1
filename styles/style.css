@@ -31,7 +31,7 @@ body {
 }
 
 .cotainer-principal {
-  padding: 0 5vh 0 5vw;
+  padding: 0 5vw 0 5vw;
 }
 
 header {
@@ -91,5 +91,11 @@ header .menu-header a {
 
 .header-section .imagen-principal img {
   width: 95%;
+}
+
+.header-section h1 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
