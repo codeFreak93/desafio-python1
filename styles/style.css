@@ -94,8 +94,36 @@ header .menu-header a {
 }
 
 .header-section h1 {
+  margin: 15px 30px;
   font-family: "Raleway", sans-serif;
   color: white;
   text-align: center;
+}
+
+.header-section p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 15px 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: regular;
+  word-spacing: 4px;
+}
+
+.header-section button {
+  margin: 15px auto;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  background-color: #339ecc;
+  padding: 12px 15vw;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: regular;
+}
+
+.header-section button:hover {
+  background-color: #65e2d9;
 }
 /*# sourceMappingURL=style.css.map */

@@ -64,9 +64,39 @@ header {
     }
 
     h1 {
+        margin: 15px 30px;
         font-family: $font-header;
         color: $Neutral-color-body;
         text-align: center;
+
+    }
+
+    p {
+        font-family: $font-body;
+        text-align: center;
+        margin: 15px 30px;
+        color: $Neutral-color-body;
+        font-size: 14px;
+        font-weight: regular;
+        word-spacing: 4px;
+    }
+
+    button {
+        margin: 15px auto;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        background-color: $Blue-call-to-action-color;
+        padding: 12px 15vw;
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: regular;
+
+        &:hover {
+            background-color: $Cyan-call-to-action-color;
+        }
+
     }
 
 
