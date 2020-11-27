@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'stay-productive';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.cotainer-principal {
+    padding: 0 5vh 0 5vw;
+}
