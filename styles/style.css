@@ -29,12 +29,6 @@
   font-size: 14px;
 }
 
-.articles {
-  height: 100hv;
-  width: 100wh;
-  background-color: #181f2a;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -54,5 +48,64 @@ body {
 
 .cotainer-principal {
   padding: 0 5vh 0 5vw;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo img {
+  margin: 5vh 0;
+  display: block;
+  width: 80px;
+}
+
+header .menu-header a {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 1vw;
+}
+
+.header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.header-section .imagen-principal {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-section .imagen-principal img {
+  width: 95%;
 }
 /*# sourceMappingURL=style.css.map */
