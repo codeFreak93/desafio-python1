@@ -1,6 +1,9 @@
-<<<<<<< HEAD
-/* No CSS *//*# sourceMappingURL=style.css.map */
-=======
+.articles {
+  height: 100hv;
+  width: 100wh;
+  background-color: #181f2a;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18,4 +21,3 @@ body {
   padding: 0 5vh 0 5vw;
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> 291b4c6e25264086022eb0383b75f0e6707516b2
