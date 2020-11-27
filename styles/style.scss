@@ -7,15 +7,16 @@
     padding: 0;
 }
 
-.body {
-    main-background-color;
+body {
+    background-color: $main-background-color;
+}
 
-    html,
-    body {
-        height: 100%;
-        width: 100%;
-    }
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
 
-    .cotainer-principal {
-        padding: 0 5vh 0 5vw;
-    }
+.cotainer-principal {
+    padding: 0 5vh 0 5vw;
+}
