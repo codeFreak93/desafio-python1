@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $font-body:'Open Sans',
 sans-serif;
 $font-header:'Raleway',
@@ -17,11 +18,28 @@ $Neutral-color-body:hsl(0, 0%, 100%);
 
 
 * {
+=======
+@import 'variables';
+@import 'stay-productive';
+* {
+    box-sizing: border-box;
+>>>>>>> 291b4c6e25264086022eb0383b75f0e6707516b2
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 .body {
     main-background-color;
 
+=======
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.cotainer-principal {
+    padding: 0 5vh 0 5vw;
+>>>>>>> 291b4c6e25264086022eb0383b75f0e6707516b2
 }
