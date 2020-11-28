@@ -41,7 +41,7 @@ header {
         color: $Neutral-color-body;
         text-decoration: none;
         font-weight: normal;
-        margin: 1vw;
+        margin: 0 4vw;
     }
 }
 
@@ -93,6 +93,56 @@ header {
 
         &:hover {
             background-color: $Cyan-call-to-action-color;
+        }
+
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    header {
+        .logo img {
+            width: 120px;
+        }
+
+        .menu-header a {
+            font-size: 14px;
+
+            &:hover {
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+
+    .header-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .imagen-principal {
+
+            img {
+                margin: 15px 30px;
+                width: 45%;
+            }
+        }
+
+        h1 {
+            margin: 20px 200px;
+
+        }
+
+        p {
+            margin: 20px 200px;
+            word-spacing: 4px;
+        }
+
+        button {
+            margin: 15px auto;
+            padding: 12px 10vw;
         }
 
     }
