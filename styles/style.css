@@ -60,6 +60,7 @@
 
 .fedbacks {
   margin-top: 10em;
+  margin-bottom: 20em;
   width: 100%;
 }
 
@@ -223,6 +224,77 @@ footer nav ul li {
 footer nav ul li a {
   text-decoration: none;
   color: white;
+}
+
+.formulario-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+  height: 50vh;
+  position: absolute;
+  z-index: 2;
+  margin-top: 8em;
+  border-radius: 5px;
+  background-color: #1c2431;
+  color: white;
+  padding: 4em 2em 4em 2em;
+}
+
+.formulario-email h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.formulario-email p {
+  margin-top: 2em;
+  margin-bottom: 2.3em;
+  text-align: center;
+}
+
+.formulario-email input {
+  padding: 2em;
+  border-radius: 20px;
+  height: 4em;
+  width: 100%;
+  outline: none;
+  border: none;
+  outline: none;
+  font-size: 10px;
+}
+
+.formulario-email input:invalid .error-label {
+  display: block;
+  color: #ff4242;
+}
+
+.formulario-email .error-label {
+  display: none;
+}
+
+.formulario-email button {
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  background-color: #339ecc;
+  padding: 12px 15vw;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: regular;
+  outline: none;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.formulario-email button:hover {
+  background-color: #65e2d9;
 }
 
 * {
